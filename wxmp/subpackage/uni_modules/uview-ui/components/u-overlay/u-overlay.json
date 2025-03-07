@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "u-transition": "../u-transition/u-transition"
+  },
+  "component": true
+}

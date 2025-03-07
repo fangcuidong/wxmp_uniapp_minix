@@ -1,0 +1,10 @@
+require('../../../../common/runtime.js');require('../../../../common/vendor.js');require('../../../../common/main.js');(global["webpackJsonp_subpackage"]=global["webpackJsonp_subpackage"]||[]).push([["uni_modules/uview-ui/components/u-status-bar/u-status-bar"],{"67d6":function(t,e,u){"use strict";(function(t){var n=u("47a9");Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a=n(u("6e1c")),i={name:"u-status-bar",mixins:[t.$u.mpMixin,t.$u.mixin,a.default],data:function(){return{}},computed:{style:function(){var e={};return e.height=t.$u.addUnit(t.$u.sys().statusBarHeight,"px"),e.backgroundColor=this.bgColor,t.$u.deepMerge(e,t.$u.addStyle(this.customStyle))}}};e.default=i}).call(this,u("df3c")["default"])},"7ce5":function(t,e,u){"use strict";var n=u("ff6f"),a=u.n(n);a.a},"7e25":function(t,e,u){"use strict";u.r(e);var n=u("b0be"),a=u("86b6");for(var i in a)["default"].indexOf(i)<0&&function(t){u.d(e,t,(function(){return a[t]}))}(i);u("7ce5");var s=u("828b"),r=Object(s["a"])(a["default"],n["b"],n["c"],!1,null,"2292e5f5",null,!1,n["a"],void 0);e["default"]=r.exports},"86b6":function(t,e,u){"use strict";u.r(e);var n=u("67d6"),a=u.n(n);for(var i in n)["default"].indexOf(i)<0&&function(t){u.d(e,t,(function(){return n[t]}))}(i);e["default"]=a.a},b0be:function(t,e,u){"use strict";u.d(e,"b",(function(){return n})),u.d(e,"c",(function(){return a})),u.d(e,"a",(function(){}));var n=function(){var t=this.$createElement,e=(this._self._c,this.__get_style([this.style]));this.$mp.data=Object.assign({},{$root:{s0:e}})},a=[]},ff6f:function(t,e,u){}}]);
+;(global["webpackJsonp_subpackage"] = global["webpackJsonp_subpackage"] || []).push([
+    'uni_modules/uview-ui/components/u-status-bar/u-status-bar-create-component',
+    {
+        'uni_modules/uview-ui/components/u-status-bar/u-status-bar-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('df3c')['createComponent'](__webpack_require__("7e25"))
+        })
+    },
+    [['uni_modules/uview-ui/components/u-status-bar/u-status-bar-create-component']]
+]);
